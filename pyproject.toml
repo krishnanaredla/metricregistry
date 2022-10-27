@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "metricregistry"
+version = "0.1.0"
+description = ""
+authors = ["Krishna Reddy <gopalkrishna.naredla@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+snowflake-sqlalchemy = "^1.4.3"
+duckdb-engine = "^0.6.4"
+pydantic = "^1.10.2"
+PyYAML = "^6.0"
+pydantic-sqlalchemy = "^0.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
